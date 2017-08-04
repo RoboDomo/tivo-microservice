@@ -1,0 +1,31 @@
+{
+  "name": "tivo-microservice",
+  "version": "1.0.0",
+  "description": "autodomo microservice to control and report status of TiVo DVR and set top boxes",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autodomo/tivo-microservice.git"
+  },
+  "keywords": [
+    "Docker",
+    "microservice",
+    "autodomo",
+    "TiVo",
+    "MQTT"
+  ],
+  "author": "Michael Schwartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autodomo/tivo-microservice/issues"
+  },
+  "homepage": "https://github.com/autodomo/tivo-microservice#readme",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "microservice-core": "github:autodomo/microservice-core"
+  }
+}
