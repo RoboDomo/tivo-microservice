@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t autodomo/tivo-microservice .
+docker build -t robodomo/tivo-microservice .
