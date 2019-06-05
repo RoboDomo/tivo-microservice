@@ -3,6 +3,11 @@ MQTT  microservice for TiVo Thermostat
 
 This microservice implements the TiVo Developer Streaming API and bridges with MQTT.
 
+### API documentation
+
+Documentation for TiVo API is here:
+https://www.tivo.com/assets/images/abouttivo/resources/downloads/brochures/TiVo_TCP_Network_Remote_Control_Protocol.pdf
+
 ## Prerequisites
 
 To build on Linux, you will need
