@@ -8,7 +8,7 @@ const debug = require("debug")("TiVoHost"),
   HostBase = require("microservice-core/HostBase");
 
 const topicRoot = process.env.TOPIC_ROOT || "tivo",
-  mqttHost = process.env.MQTT_HOST || "mqtt://ha";
+  mqttHost = process.env.MQTT_HOST || "mqtt://robodomo";
 
 const irCodes = [
   "UP",
