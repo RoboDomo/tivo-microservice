@@ -1,9 +1,9 @@
 // tivo-microservice
 
 process.env.DEBUG = "TiVoHost,HostBase";
+process.title = process.env.TITLE || "tivo-microservice";
 
 const debug = require("debug")("TiVoHost"),
-  //  config = require("./config"),
   net = require("net"),
   HostBase = require("microservice-core/HostBase");
 
