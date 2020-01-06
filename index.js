@@ -86,7 +86,7 @@ class TiVoHost extends HostBase {
     this.tivo.setEncoding("ascii");
     this.buffer = "";
     this.tivo.on("error", err => {
-      //      console.log("TIVO err", err);
+      console.log("TIVO err", err);
       this.tivo.end();
       this.tivo = null;
       this.connect();
